@@ -1,0 +1,137 @@
+@charset "utf-8";
+*{margin: 0; padding: 0;}
+a{text-decoration: none; color: inherit;}
+ul, ol{list-style: none;}
+.clearfix::after{content: ""; display: block; clear: both;}
+img, video{vertical-align: middle;}
+
+@font-face {
+    font-family: 'SBAggroB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SBAggroM';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroM.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SBAggroL';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroL.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Ahnjunggeun';
+    src: url('font/KCCAhnjunggeun.woff2') format('woff2'),
+        url('font/KCCAhnjunggeun.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Ahnjunggeun00';
+    src: url('font/KCCAhnjunggeun00.woff2') format('woff2'),
+        url('font/KCCAhnjunggeun00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'SunBatang-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/SunBatang-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SunBatang-Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/SunBatang-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SunBatang-Medium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/SunBatang-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body{font-family: "맑은 고딕"; font-size: 14px; line-height: 24px; color: #000; min-width: 1440px;}
+
+#header{background-color: #fff; position: fixed; top: 0; left: 0; width: 100%; z-index: 10;}
+#header_inner{width: 1280px; margin: 0 auto; height: 100px;}
+.logo{float: left; padding-top: 20px;}
+.gnb{float: left;}
+.gnb>li{float: left; padding: 38px 30px; font-size: 16px; font-weight: bold;}
+.gnb>li:nth-child(3){padding-right: 0;}
+.id{padding-top: 50px;}
+.id>li{float: left; padding-right: 20px;}
+.id>li:nth-child(4){padding-right: 0;}
+.id>li>img{display: inline-block;}
+.id{float: right;}
+
+#sub{background-color: #000; width: 100%; height: 250px; display: none; position: absolute; top: 100px; left: 0; width: 100%;}
+#sub_inner{width: 1280px; margin: 0 auto; color: #fff; font-size: 16px; font-weight: bold; position: relative;}
+#sub_inner li{padding: 20px 0; text-align: center;}
+.QWER_logo{position: absolute; top: 0; left: 0; width: 200px;}
+.products{position: absolute; top: 0; left: 15.5%; width: 144.78px;}
+.community{position: absolute; top: 0; left: 27%; width: 162.08px;}
+.support{position: absolute; top: 0; left: 40%; width: 132.28px;}
+
+#review{margin-top: 100px;}
+#review_inner{width: 1280px; margin: 0 auto;}
+.title{font-family: "SBAggroB"; font-size: 30px; text-align: center; padding: 40px 0;}
+.review_box{background-color: #eee; width: 600px; height: 240px; padding: 20px; box-sizing: border-box; border-radius: 40px; margin-top: 20px;}
+.left{float: left; margin-left: 20px;}
+.right{float: right; margin-right: 20px;}
+.review_pic>img{width: 200px; height: 200px; border-radius: 30px;}
+.review_pic{float: left;}
+.review_text{width: 340px; padding-left: 20px; float: left;}
+.review_title{padding-bottom: 10px; font-family: "맑은 고딕"; font-weight: bold; font-size: 18px; line-height: 28px;}
+.review_talk{font-family: "SunBatang-Medium"; font-size: 18px; line-height: 28px;}
+
+#board_inner{width: 1280px; margin: 0 auto;}
+.best_custom{margin-bottom: 100px;}
+.best_title{font-family: "맑은 고딕"; font-weight: bold; font-size: 24px; line-height: 34px; padding: 0 20px;}
+.custom4{display: flex; justify-content: space-between; margin-top: 40px;}
+.custom4>li{background-color: #ddd; padding: 15px; box-sizing: border-box; position: relative;}
+.custom4>li:nth-child(4){margin-right: 0;}
+.custom4>li img{width: 270px; height: 270px;}
+.custom_title{font-family: "맑은 고딕"; font-weight: bold; font-size: 16px; line-height: 26px; padding-top: 10px;}
+.custom_id{font-family: "맑은 고딕"; font-size: 16px; line-height: 26px; padding-top: 10px; color: #374273;}
+.custom_time{font-family: "맑은 고딕"; font-size: 16px; line-height: 26px; padding-top: 10px; color: #666; text-align: right; position: absolute; bottom: 15px; right: 15px;}
+
+.free_board table{width: 1280px; border-top: 1px solid #ccc; border-collapse: collapse;}
+.free_board .table_top{padding: 10px 0;}
+.free_board table th{font-family: "맑은 고딕"; font-weight: bold; font-size: 16px; line-height: 26px; color: #000; text-align: center;}
+.free_board table tr{border-bottom: 1px solid #ccc;}
+.free_board .parts{color: #666; padding: 10px 5px; box-sizing: border-box;}
+.free_board .titles{text-align: left; padding: 10px 20px; font-family: "맑은 고딕"; font-size: 14px; line-height: 24px; font-weight: bold;}
+.free_board .id_name{font-family: "맑은 고딕"; font-weight: normal; font-size: 14px; line-height: 24px; color: #374273;}
+.date{font-family: "맑은 고딕"; color: #666; text-align: center;}
+.search_box{margin: 50px 0; display: flex; justify-content: space-between;}
+.search{padding: 6.5px 3px;}
+.search_bar{width: 800px; height: 30px;}
+.button{font-family: "맑은 고딕"; font-weight: bold; font-size: 18px; line-height: 28px; padding: 0 8px;}
+.writing{display: inline-block; border: 2px solid #000; padding: 1px 66px; border-radius: 20px; font-family: "맑은 고딕"; font-weight: bold; font-size: 18px; line-height: 28px;}
+.sb_inner{width: 1000px; display: flex; justify-content: space-between;}
+#page_inner{width: 1280px; margin: 100px auto; display: flex; justify-content: space-between;}
+.page_count ul li{float: left; padding: 3px 80px 0px 0; font-size: 16px; font-weight: bold; color: #000;}
+.page_count ul li:nth-child(10){padding-right: 0;}
+.page_count ul li a{display: inline-block;}
+
+#bg{margin-top: 160px;}
+#bg>img{width: 100%;}
+
+#footer{background-color: #ccc;}
+#footer_inner{width: 1280px; margin: 0 auto; font-family: "맑은 고딕"; font-size: 14px; line-height: 24px; color: #000;}
+#footer_inner ul li{float: left;}
+.footer_logo{float: left; padding-right: 20px; padding-top: 23.5px;}
+.legal{float: left; padding: 38px 0;}
+.legal>li{padding-right: 100px;}
+.legal>li:nth-child(3){padding-right: 0;}
+.sns{float: right; padding: 25px 0;}
+.sns>li{padding-right: 20px;}
+.sns>li:nth-child(5){padding-right: 0;}
+.footer_text{float: left; padding: 10px 0;}

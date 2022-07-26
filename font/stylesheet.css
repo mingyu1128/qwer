@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Ahnjunggeun';
+    src: url('KCCAhnjunggeun.woff2') format('woff2'),
+        url('KCCAhnjunggeun.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ahnjunggeun00';
+    src: url('KCCAhnjunggeun00.woff2') format('woff2'),
+        url('KCCAhnjunggeun00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
